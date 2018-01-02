@@ -171,3 +171,9 @@ APP图标的规格则为1024*1024
 如果变成可供销售，恭喜你~上架成功了，如果显示被拒绝，点击查看问题，根据反馈修改再重新上传。
 
 ![alt ID](http://www.applicationloader.net/blog/wp-content/uploads/2017/05/7.3.png)
+
+
+## 上架被拒总结
+1.0 hbuiler 打包
+
+![alt ID](http://www.applicationloader.net/blog/wp-content/uploads/2017/05/7.3.png)
