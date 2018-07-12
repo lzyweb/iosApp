@@ -43,7 +43,7 @@ vue语法高亮和自动补全代码
 
 ### 为什么学习Vue
 
-  ![为什么学习vue](./img/day01/为什么学习vue.png)
+  ![为什么学习vue](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day01/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%AD%A6%E4%B9%A0vue.png)
 	
 ### 什么是MVVM
 
@@ -51,7 +51,7 @@ vue语法高亮和自动补全代码
     - V => View(视图模型,负责将数据模型转化成UI展现出来，就是那些DOM结构)
     - VM => ViewModel(一个同步View和Model的对象)
 
-![MVVM](./img/day01/MVVM.png)
+![MVVM](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day01/MVVM.png)
 
 ### Vue初体验
 
@@ -429,7 +429,7 @@ vue语法高亮和自动补全代码
 ### 资源准备
 
   * 效果图<br/>
-    ![效果图](./img/day01/案例效果图.png)
+    ![效果图](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day01/%E6%A1%88%E4%BE%8B%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 
   * 案例html结构
   ```html
@@ -560,7 +560,7 @@ vue语法高亮和自动补全代码
 ### 功能-数据添加
 
   * 效果图</br>
-    ![添加数据](./img/day01/添加数据.png)
+    ![添加数据](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day01/%E6%B7%BB%E5%8A%A0%E6%95%B0%E6%8D%AE.png)
 
   1. 实现步骤1：在Vue对象实例的data中添加一个product对象{id:0,name:'',ctime:Date()}
 
@@ -618,7 +618,7 @@ vue语法高亮和自动补全代码
 ### 功能-按回车键添加数据
 
   **关键点：利用v-on的.enter按键修饰符实现，回车键的keycode=13**</br>
-  ![回车添加数据](./img/day01/回车添加数据.png)
+  ![回车添加数据](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day01/%E5%9B%9E%E8%BD%A6%E6%B7%BB%E5%8A%A0%E6%95%B0%E6%8D%AE.png)
 
   ```html
   品牌名称: <input type="text" v-model="product.name" @keydown.13="addData">
@@ -1103,7 +1103,7 @@ new Vue({
         2. 请求报文头
         3. 请求报文体
 
-    ![请求报文](./img/day02/请求报文.png)
+    ![请求报文](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day02/%E8%AF%B7%E6%B1%82%E6%8A%A5%E6%96%87.png)
 
 2. http响应报文
 
@@ -1114,7 +1114,7 @@ new Vue({
         2. 响应报文头
         3. 响应报文体
 
-    ![响应报文](./img/day02/响应报文.png)
+    ![响应报文](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day02/%E5%93%8D%E5%BA%94%E6%8A%A5%E6%96%87.png)
 
 ### get请求示例
 
@@ -1378,7 +1378,7 @@ new Vue({
 
 * vue-resource jsonp请求
 
-  ![jsonp跨域原理解析](./img/day02/jsonp跨域原理解析.png)
+  ![jsonp跨域原理解析](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day02/jsonp%E8%B7%A8%E5%9F%9F%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.png)
 
 ```js
     jsonp请求主要用来解决ajax跨域请求问题，使用jsonp实现跨域首先要保证服务器api支持jsonp请求的格式
@@ -1435,7 +1435,7 @@ new Vue({
     </transition>
   ```
   动画图解<br />
-  ![transition结合css实现过渡](./img/day02/transition结合css实现过渡.png)
+  ![transition结合css实现过渡](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day02/transition%E7%BB%93%E5%90%88css%E5%AE%9E%E7%8E%B0%E8%BF%87%E6%B8%A1.png)
 
 ### transition结合animate.css实现过渡
 
@@ -1528,43 +1528,43 @@ new Vue({
 
 #### vue.extend结合vue.component创建
 
-![vue.extend和vuecomponent创建组件](./img/day03/vue.extend和vuecomponent创建组件.png)
+![vue.extend和vuecomponent创建组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/vue.extend%E5%92%8Cvuecomponent%E5%88%9B%E5%BB%BA%E7%BB%84%E4%BB%B6.png)
 
 #### vue.component创建
 
-![vuecomponent创建组件](./img/day03/vuecomponent创建组件.png)
+![vuecomponent创建组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/vuecomponent%E5%88%9B%E5%BB%BA%E7%BB%84%E4%BB%B6.png)
 
 #### template方式创建
 
-![template创建组件](./img/day03/template创建组件.png)
+![template创建组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/template%E5%88%9B%E5%BB%BA%E7%BB%84%E4%BB%B6.png)
 
 ### 组件中的指令以及事件绑定
 
-![组件间指令和事件的使用](./img/day03/组件中指令和事件的使用.png)
+![组件间指令和事件的使用](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E7%BB%84%E4%BB%B6%E4%B8%AD%E6%8C%87%E4%BB%A4%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8.png)
 
 ### 父子组件创建
 
-![父子组件](./img/day03/父子组件.png)
+![父子组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E7%88%B6%E5%AD%90%E7%BB%84%E4%BB%B6.png)
 
 ### 父子组件通信
 
 #### 父组件传值给子组件(props)
 
-![父组件传值给子组件页面.png](./img/day03/父组件传值给子组件页面.png)
+![父组件传值给子组件页面.png](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E7%88%B6%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC%E7%BB%99%E5%AD%90%E7%BB%84%E4%BB%B6%E9%A1%B5%E9%9D%A2.png)
 
-![父组件传值给子组件](./img/day03/父组件传值给子组件.png)
+![父组件传值给子组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E7%88%B6%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC%E7%BB%99%E5%AD%90%E7%BB%84%E4%BB%B6.png)
 
 #### 子组件传值给父组件($emit)
 
-![子组件传值给父组件](./img/day03/子组件传值给父组件页面.png)
+![子组件传值给父组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E5%AD%90%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC%E7%BB%99%E7%88%B6%E7%BB%84%E4%BB%B6%E9%A1%B5%E9%9D%A2.png)
 
-![子组件传值给父组件](./img/day03/子组件传值给父组件.png)
+![子组件传值给父组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E5%AD%90%E7%BB%84%E4%BB%B6%E4%BC%A0%E5%80%BC%E7%BB%99%E7%88%B6%E7%BB%84%E4%BB%B6.png)
 
 ### 利用component组件和is属性实现动态组件
 
-![动态组件](./img/day03/动态组件页面.png)
+![动态组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6%E9%A1%B5%E9%9D%A2.png)
 
-![动态组件](./img/day03/动态组件.png)
+![动态组件](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6.png)
 
 ## 组件生命周期
 
@@ -1656,20 +1656,20 @@ new Vue({
 
 ### vue-router入门
 
-![路由入门页面](./img/day03/路由入门页面.png)
-![路由入门](./img/day03/路由入门.png)
+![路由入门页面](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E8%B7%AF%E7%94%B1%E5%85%A5%E9%97%A8%E9%A1%B5%E9%9D%A2.png)
+![路由入门](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E8%B7%AF%E7%94%B1%E5%85%A5%E9%97%A8.png)
 
 ### vur-router传参
 
-![vue-router传参页面](./img/day03/vue-router传参页面.png)
+![vue-router传参页面](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/vue-router%E4%BC%A0%E5%8F%82%E9%A1%B5%E9%9D%A2.png)
 
-![vue-router传参](./img/day03/vue-router传参.png)
+![vue-router传参](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/vue-router%E4%BC%A0%E5%8F%82.png)
 
 ### vue-router嵌套
 
-![路由嵌套页面](./img/day03/路由嵌套页面.png)
+![路由嵌套页面](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E8%B7%AF%E7%94%B1%E5%B5%8C%E5%A5%97%E9%A1%B5%E9%9D%A2.png)
 
-![路由嵌套](./img/day03/路由嵌套.png)
+![路由嵌套](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/%E8%B7%AF%E7%94%B1%E5%B5%8C%E5%A5%97.png)
 
 
 ## webpack
@@ -1678,7 +1678,7 @@ new Vue({
 
   webpack 是一个现代 JavaScript 应用程序的模块打包器(module bundler)，分析你的项目结构，找到JavaScript模块以及其它的一些浏览器不能直接运行的拓展语言（Sass，TypeScript等），并将其转换和打包为合适的格式供浏览器使用。
 
-  ![webpack是什么](./img/day03/webpack是什么.png)
+  ![webpack是什么](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/day03/webpack%E6%98%AF%E4%BB%80%E4%B9%88.png)
 
 ### 为什么需要webpack
 
@@ -2261,7 +2261,7 @@ Vuex是一个针对Vue.js开发的状态管理模式。说简单点儿就是一�
 
 ### Vuex 核心内容
 
-![vuex](./img/vuex.png)
+![vuex](https://raw.githubusercontent.com/lzyweb/iosApp/master/img/vuex.png)
 
 store (一个容器对象，存储Vuex中的state,mutations,actions,getters等)
   - state (一个保存数据的对象，对象中的数据可以供所有组件使用)
